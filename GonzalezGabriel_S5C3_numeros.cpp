@@ -12,7 +12,12 @@ int main()
   for(i=0; i<1000; i++)
 	{
     numeroal = rand() % 100 + 1;
-    cout << i << " " << numeroal << endl;  	 	 
+
+	if (numeroal%2==0 && numeroal<=89 && i <= 25){
+	
+
+
+    cout << i << " " << numeroal << endl;  	} 	 
         }	
 
   return 0;
